@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TextAndScrollView">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="34dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="180dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/border"
+                android:src="@drawable/old_engro_black_small" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="180dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/border"
+                android:src="@drawable/round_6_ft_apart_24" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="180dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/border"
+                android:src="@drawable/old_engro_black_small" />
+
+            <ImageView
+                android:id="@+id/imageView44"
+                android:layout_width="180dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/border"
+                android:src="@drawable/old_engro_black_small" />
+
+            <ImageView
+                android:id="@+id/imageView55"
+                android:layout_width="180dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/border"
+                android:src="@drawable/old_engro_black_small" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:padding="12dp"
+            android:text="She has good experience in coding, development (android) and leadership roles.
+She has been honored with the International Women In Opensource Academic Award 2020 as a finalist based on her leadership qualities, community involvement and contributions.
+She has good experience in mentoring students (GCI Mentor, guided open-source enthusiasts for GSoC at KWOC'19 (IIT-Kharagpur Initiative) and much more.
+Saumya has been Developer Advocate and Content Creator at AnitaB.org open-source teams.
+She has been winner and runner-up of 7+ hackathons from Smart India Hackathon 2019 (India’s Biggest Hackathon that involves 2 Lakh+ students) to Delhi Police Hackathon 2019."
+            android:textSize="15sp" />
+    </ScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="180dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/border"
+                android:src="@drawable/old_engro_black_small" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="180dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/border"
+                android:src="@drawable/round_6_ft_apart_24" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="180dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/border"
+                android:src="@drawable/old_engro_black_small" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="180dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/border"
+                android:src="@drawable/old_engro_black_small" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="180dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/border"
+                android:src="@drawable/old_engro_black_small" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Next"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:background="@drawable/border"
+        android:layout_marginBottom="50dp"/>
+
+</LinearLayout>

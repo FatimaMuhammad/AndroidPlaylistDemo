@@ -1,5 +1,6 @@
 package com.example.demoapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.LinearLayout
@@ -16,6 +17,7 @@ class Layout : AppCompatActivity() {
         val buttonDark = findViewById<Button>(R.id.btnDark)
         val buttonRead = findViewById<Button>(R.id.btnRead)
         val linearLayout = findViewById<LinearLayout>(R.id.linearLay)
+        val btnIntent = findViewById<Button>(R.id.btnNext)
 
         buttonRead.setOnClickListener {
 
@@ -28,6 +30,10 @@ class Layout : AppCompatActivity() {
             linearLayout.setBackgroundResource(R.color.purple)
             Toast.makeText(applicationContext, "Welcome to Dark", Toast.LENGTH_SHORT).show()
         }
+        btnIntent.setOnClickListener {
+         intent = Intent(applicationContext, ImplicitIntentActivity::class.java )
+            startActivity(intent)
 
+     }
     }
 }

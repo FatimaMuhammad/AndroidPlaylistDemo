@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Project.AndroidActivity"
+    android:background="@color/navyBlue">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLay1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="13dp"
+            android:background="@drawable/outline"
+            android:gravity="start"
+            android:orientation="vertical">
+
+         <TextView
+                android:id="@+id/textView"
+                style="@style/MaterialAlertDialog.Material3.Title.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:paddingTop="12dp"
+                android:text="Android Application Development"
+                android:textColor="@color/navyBlue"
+                android:textSize="24dp"
+                android:textStyle="italic" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ClickAnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="23dp"
+                android:background="@drawable/old_engro_black_small"
+                app:cardBackgroundColor="@color/grey"
+                app:cardCornerRadius="@android:dimen/app_icon_size">
+
+                <ImageView
+                    android:id="@+id/ClickAndroid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/elearning" />
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/txtAnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="11dp"
+                android:textSize="16dp"
+                android:textColor="@color/navyBlue"
+                android:layout_marginStart="12dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/Android" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="21dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="11dp"
+        android:backgroundTint="@color/yellow"
+        android:gravity="center"
+        android:text="Call Me"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+</LinearLayout>

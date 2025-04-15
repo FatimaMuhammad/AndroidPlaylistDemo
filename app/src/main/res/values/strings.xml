@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DemoApp</string>
+    <string name="intro">Welcome to FSY \n Knowledge Hub"</string>
+    <string name="Android">Welcome to the Course of Android Application development Click to start your Learning"</string>
+    <string name="Web">Welcome to the Course of Web Application development Click to start your Learning"</string>
+
 </resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Project.AndroidActivity"
+    android:background="@color/navyBlue">
+
+
+    <LinearLayout
+        android:id="@+id/linearLay1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/outline"
+        android:layout_margin="23dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="123dp"
+            android:layout_height="126dp"
+            android:layout_marginStart="23dp"
+            android:background="@drawable/outline"
+            app:cardCornerRadius="@android:dimen/app_icon_size"
+            app:cardBackgroundColor="@color/grey">
+            <TextView
+                android:id="@+id/txtAndroid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/navyBlue"
+                style="@style/MaterialAlertDialog.Material3.Body.Text.CenterStacked"
+                android:gravity="center_horizontal"
+                android:text="Android App development"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="123dp"
+            android:layout_height="126dp"
+            android:background="@drawable/outline"
+            android:layout_marginStart="23dp"
+            app:cardCornerRadius="@android:dimen/app_icon_size"
+
+            app:cardBackgroundColor="@color/grey">
+            <TextView
+                android:id="@+id/txtWeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                style="@style/MaterialAlertDialog.Material3.Body.Text.CenterStacked"
+
+                android:textColor="@color/navyBlue"
+                android:gravity="center_horizontal"
+                android:text="Web App development" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLay2"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/outline"
+        android:layout_margin="23dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="123dp"
+            android:layout_height="126dp"
+            android:layout_marginStart="23dp"
+            android:background="@drawable/outline"
+            app:cardCornerRadius="@android:dimen/app_icon_size"
+
+            app:cardBackgroundColor="@color/grey">
+            <TextView
+                android:id="@+id/txtFlutter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/navyBlue"
+                style="@style/MaterialAlertDialog.Material3.Body.Text.CenterStacked"
+
+                android:gravity="center_horizontal"
+                android:text="Flutter App development" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="123dp"
+            android:layout_height="126dp"
+            android:background="@drawable/outline"
+            android:layout_marginStart="23dp"
+            app:cardCornerRadius="@android:dimen/app_icon_size"
+            app:cardBackgroundColor="@color/grey">
+            <TextView
+                android:id="@+id/txtML"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/navyBlue"
+                style="@style/MaterialAlertDialog.Material3.Body.Text.CenterStacked"
+
+                android:gravity="center_horizontal"
+                android:text="ML Course" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLay3"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/outline"
+        android:layout_margin="23dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="123dp"
+            android:layout_height="126dp"
+            android:layout_marginStart="23dp"
+            android:background="@drawable/outline"
+            app:cardCornerRadius="@android:dimen/app_icon_size"
+            app:cardBackgroundColor="@color/grey">
+            <TextView
+                android:id="@+id/Backend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MaterialAlertDialog.Material3.Body.Text.CenterStacked"
+
+                android:layout_gravity="center"
+                android:textColor="@color/navyBlue"
+                android:gravity="center_horizontal"
+                android:text="Backend App development" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="123dp"
+            android:layout_height="126dp"
+            android:background="@drawable/outline"
+            android:layout_marginStart="23dp"
+            app:cardCornerRadius="@android:dimen/app_icon_size"
+            app:cardBackgroundColor="@color/grey">
+            <TextView
+                android:id="@+id/txtIos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MaterialAlertDialog.Material3.Body.Text.CenterStacked"
+
+                android:layout_gravity="center"
+                android:textColor="@color/navyBlue"
+                android:gravity="center_horizontal"
+                android:text="Ios App development" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Call Me"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/yellow" />
+
+
+</LinearLayout>

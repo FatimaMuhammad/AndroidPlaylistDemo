@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="Project.AndroidActivity"
+    tools:context="Project1.AndroidActivity"
     android:background="@color/navyBlue">
 
 
@@ -42,7 +42,6 @@
             android:background="@drawable/outline"
             android:layout_marginStart="23dp"
             app:cardCornerRadius="@android:dimen/app_icon_size"
-
             app:cardBackgroundColor="@color/grey">
             <TextView
                 android:id="@+id/txtWeb"

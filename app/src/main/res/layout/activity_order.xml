@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBrown"
+    android:orientation="vertical"
+    android:overScrollMode="always"
+    android:padding="23dp"
+    tools:context="Project2.OrderActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/coffe_order" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textSize="19sp"
+                android:ems="10"
+                android:hint="@string/Name"
+                android:inputType="text"
+                android:textColor="@color/brown" />
+
+            <EditText
+                android:id="@+id/etOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:ems="10"
+                android:gravity="top|start"
+                android:hint="@string/Order"
+                android:inputType="textMultiLine"
+                android:maxLines="9"
+                android:minLines="1"
+                android:textSize="19sp"
+                android:overScrollMode="always"
+                android:scrollbars="vertical"
+                android:textColor="@color/brown" />
+
+            <EditText
+                android:id="@+id/etNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:ems="10"
+                android:textSize="19sp"
+                android:hint="@string/No"
+                android:inputType="number"
+                android:scrollbars="vertical"
+                android:textColor="@color/brown" />
+
+            <EditText
+                android:id="@+id/etTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textSize="19sp"
+                android:layout_marginTop="21dp"
+                android:hint="@string/Table"
+                android:inputType="number"
+                android:textColor="@color/brown" />
+
+            <Button
+                android:id="@+id/btnOrder"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/brown"
+                android:gravity="center"
+                android:text="Order Now"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

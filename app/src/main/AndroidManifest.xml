@@ -15,47 +15,63 @@
         android:theme="@style/Theme.DemoApp"
         tools:targetApi="31">
         <activity
-            android:name="Project.WebActivity"
-            android:exported="false" />
+            android:name="Project1.CourseList"
+            android:exported="true" />
         <activity
-            android:name="Project.IntroActivity"
-            android:exported="true" >
+            android:name="Project1.CourseHistory"
+            android:exported="true" />
+        <activity
+            android:name="Project2.SendActivity"
+            android:exported="true" />
+        <activity
+            android:name="Project2.OrderActivity"
+            android:exported="true" />
+        <activity
+            android:name="Project2.WelcomeScreen"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="Project.AndroidActivity"
-            android:exported="true" />
-        <activity
-            android:name="Project.SelectionActivity"
-            android:exported="true" />
-        <activity
-            android:name=".WebViewActivity"
-            android:exported="true"/>
 
         <activity
-            android:name=".ImplicitIntentActivity"
+            android:name="Project1.WebActivity"
             android:exported="true" />
         <activity
-            android:name=".TextAndScrollView"
+            android:name="Project1.IntroActivity"
+            android:exported="true" />
+
+        <activity
+            android:name="Project1.AndroidActivity"
             android:exported="true" />
         <activity
-            android:name=".RelativeLayout"
+            android:name="Project1.SelectionActivity"
             android:exported="true" />
         <activity
-            android:name=".LinearLayout"
+            android:name=".Basics.WebViewActivity"
             android:exported="true" />
         <activity
-            android:name=".MyLayouts"
+            android:name=".Basics.ImplicitIntentActivity"
             android:exported="true" />
         <activity
-            android:name=".Layout"
+            android:name=".Basics.TextAndScrollView"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Basics.RelativeLayout"
+            android:exported="true" />
+        <activity
+            android:name=".Basics.LinearLayout"
+            android:exported="true" />
+        <activity
+            android:name=".Basics.MyLayouts"
+            android:exported="true" />
+        <activity
+            android:name=".Basics.Layout"
+            android:exported="true" />
+        <activity
+            android:name=".Basics.MainActivity"
             android:exported="true" />
     </application>
 

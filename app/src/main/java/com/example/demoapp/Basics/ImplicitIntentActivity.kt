@@ -1,15 +1,15 @@
-package com.example.demoapp
+package com.example.demoapp.Basics
 
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
-import android.provider.MediaStore.Images.Media
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.demoapp.R
 
 class ImplicitIntentActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

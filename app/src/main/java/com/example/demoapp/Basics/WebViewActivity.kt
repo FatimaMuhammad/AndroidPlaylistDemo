@@ -1,14 +1,12 @@
-package com.example.demoapp
+package com.example.demoapp.Basics
 
 import android.os.Build
 import android.os.Bundle
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import androidx.activity.enableEdgeToEdge
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.example.demoapp.R
 
 class WebViewActivity : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.O)

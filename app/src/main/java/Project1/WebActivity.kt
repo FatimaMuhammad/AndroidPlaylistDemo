@@ -1,29 +1,36 @@
-package com.example.demoapp
+package Project1
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.cardview.widget.CardView
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.demoapp.R
 
-class TextAndScrollView : AppCompatActivity() {
+class WebActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_text_and_scroll_view)
+        setContentView(R.layout.activity_web)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-        val btnIntent = findViewById<Button>(R.id.Button)
-        btnIntent.setOnClickListener {
-            intent = Intent(applicationContext, RelativeLayout ::class.java)
+        val txtWeb = findViewById<CardView>(R.id.txtWeb)
+        val purchase = findViewById<Button>(R.id.btnCall)
+        txtWeb.setOnClickListener {
+            val intent = Intent(Intent.ACTION_VIEW)
+            intent.data = Uri.parse("https://roadmap.sh/frontend")
             startActivity(intent)
         }
-
+        purchase.setOnClickListener {
+            intent = Intent(applicationContext, CourseHistory::class.java)
+            startActivity(intent)
+        }
     }
 }

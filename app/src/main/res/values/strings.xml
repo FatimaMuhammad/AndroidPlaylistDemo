@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">DemoApp</string>
     <string name="intro">Welcome to FSY \n Knowledge Hub"</string>
+    <string name="Name">Enter your Name"</string>
+    <string name="Order">Enter your Order Plz"</string>
+    <string name="No">Enter your No"</string>
+    <string name="Table">Enter your Table No"</string>
+    <string name="Course">Enter Course"</string>
+    <string name="Email">Enter your Email"</string>
+
+
     <string name="Android">Welcome to the Course of Android Application development Click to start your Learning"</string>
     <string name="Web">Welcome to the Course of Web Application development Click to start your Learning"</string>
 
